@@ -5,7 +5,6 @@ import {
   UnauthorizedException,
 } from '@nestjs/common';
 import { CreateSignupDto } from './dto/create-signup.dto';
-import { UpdateSignupDto } from './dto/update-signup.dto';
 import { Prisma } from '@prisma/client';
 import * as bcrypt from 'bcrypt';
 import { DatabaseService } from 'src/database/database.service';
